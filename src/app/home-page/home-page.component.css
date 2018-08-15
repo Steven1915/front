@@ -1,0 +1,59 @@
+.carousel-inner{
+    height:500px;
+}
+
+.button{
+    margin-top:10px;
+    margin-left:60px;
+    width:200px;
+}
+
+h4{
+    text-align: center;
+    margin-top:150px;
+    color:rgb(5, 4, 4);
+}
+
+h5{
+    text-align: center;
+    margin-top:30px;
+    margin-left:40px;
+    margin-right:40px;
+    color:rgb(0, 0, 0);
+}
+ 
+.nav-link{
+    font-size: 20px;
+}
+
+.flyers{
+    height:600px;
+    
+}
+
+.gears{
+    margin-left:150px;
+    margin-top:100px;
+    font-size:60px;
+    color: red;
+
+}
+
+h3{
+    margin-left:100px;
+    margin-top:-50px;
+    color: white;
+}
+
+.slide{
+    margin-top:100px;
+}
+
+.face{
+    font-size:40px;
+    margin-left:670px;
+}
+
+.insta{
+    font-size:40px;
+}
