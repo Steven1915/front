@@ -7,7 +7,7 @@ import { EventsComponent } from "./events/events.component";
 import { FasfaComponent } from "./fasfa/fasfa.component";
 import { ScholarshipsComponent } from "./scholarships/scholarships.component";
 import { CollegeComponent } from "./college/college.component";
-import { SignComponent } from "./sign/sign.component";
+import { SignComponent } from './ sign/sign.component';
 const routes: Routes = [
   {
     path: "", component: HomePageComponent,

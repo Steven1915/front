@@ -1,10 +1,34 @@
-<div class="wrapper">
-    <form class="form-signin">       
-      <h2 class="form-signin-heading">Please login</h2>
-      <input type="text" class="email form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-      <input type="password" class="password form-control" name="password" placeholder="Password" required=""/>      
-      <label class="checkbox">
-      </label>
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+<!-- <div class="login-page">
+  <div class="form">
+    <form class="login-page">
+      <input type="text" placeholder="Email" />
+      <input type="text" placeholder="password" />
+      <button>Login</button>
     </form>
   </div>
+</div> -->
+
+
+<div class="container">
+  <div class="card margin-small">
+    <div class="card-header">
+      Login Sheet
+    </div>
+    <div class="card-body">
+      <form  id="loginForm" role="form" (ngSubmit)="login()">
+        <div class="form-group">
+          <label>E-mail</label>
+          <input placeholder="Email" [(ngModel)]="user.email" name="email" type="text" class="form-control" required/>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input placeholder="Password" [(ngModel)]="user.password" name="password" type="password" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-secondary">Login</button>
+      </form>
+    </div>
+  </div>
+  <div *ngIf="invalidCredentials" class="alert alert-danger margin-small" role="alert">
+    Invalid Credentials
+  </div>
+</div>

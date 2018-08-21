@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -10,7 +11,7 @@ import { EventsComponent } from './events/events.component';
 import { FasfaComponent } from './fasfa/fasfa.component';
 import { ScholarshipsComponent } from './scholarships/scholarships.component';
 import { CollegeComponent } from './college/college.component'
-import { SignComponent } from './sign/sign.component'
+import { SignComponent } from './ sign/sign.component';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './guards/auth.guard';
 
@@ -28,7 +29,8 @@ import { AuthGuard } from './guards/auth.guard';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent]

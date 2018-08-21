@@ -14,7 +14,9 @@
                 </a>
             </li>
         </ul>
-       <a href="/sign"><button class="button btn btn-outline-black my-2 my-sm-0" type="submit">Sign In</button></a>
+       <a *ngIf="!isLoggedIn" href="/sign"><button class="button btn btn-outline-black my-2 my-sm-0" type="submit">Sign In</button></a>
+       <button (click)="logout()" *ngIf="isLoggedIn" class="button btn btn-outline-black my-2 my-sm-0" type="button">Logout</button>
+
     </div>
 </nav>
 
