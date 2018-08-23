@@ -14,6 +14,7 @@ import { CollegeComponent } from './college/college.component'
 import { SignComponent } from './ sign/sign.component';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './guards/auth.guard';
+import { TeachLogComponent } from './teach-log/teach-log.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AuthGuard } from './guards/auth.guard';
     FasfaComponent,
     ScholarshipsComponent,
     CollegeComponent,
-    SignComponent
+    SignComponent,
+    TeachLogComponent
   ],
   imports: [
     BrowserModule,

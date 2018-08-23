@@ -8,6 +8,7 @@ import { FasfaComponent } from "./fasfa/fasfa.component";
 import { ScholarshipsComponent } from "./scholarships/scholarships.component";
 import { CollegeComponent } from "./college/college.component";
 import { SignComponent } from './ sign/sign.component';
+import { TeachLogComponent } from './teach-log/teach-log.component';
 const routes: Routes = [
   {
     path: "", component: HomePageComponent,
@@ -32,6 +33,9 @@ const routes: Routes = [
   },
   {
     path: "staffinfo", component: StaffinfoComponent,
+  },
+  {
+    path: "teachlog", component: TeachLogComponent,
   },
   {
     path: "", redirectTo: "/", pathMatch: "full"

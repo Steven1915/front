@@ -24,7 +24,7 @@ export class SignComponent implements OnInit {
         if (!valid)
           this.invalidCredentials = true;
         else
-          this.router.navigate(['/']);
+          this.router.navigate(['/teachlog']);
       });
   }
 
