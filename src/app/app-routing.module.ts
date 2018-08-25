@@ -7,8 +7,12 @@ import { EventsComponent } from "./events/events.component";
 import { FasfaComponent } from "./fasfa/fasfa.component";
 import { ScholarshipsComponent } from "./scholarships/scholarships.component";
 import { CollegeComponent } from "./college/college.component";
-import { SignComponent } from './ sign/sign.component';
-import { TeachLogComponent } from './teach-log/teach-log.component';
+import { SignComponent } from "./ sign/sign.component";
+import { TeachLogComponent } from "./teach-log/teach-log.component";
+import { StudentsDBComponent } from "./students-db/students-db.component";
+import { CounslersDBComponent } from "./counslers-db/counslers-db.component";
+import { TestingUpdateComponent } from "./testing-update/testing-update.component";
+import { TripsUpdateComponent } from "./trips-update/trips-update.component";
 const routes: Routes = [
   {
     path: "", component: HomePageComponent,
@@ -36,6 +40,18 @@ const routes: Routes = [
   },
   {
     path: "teachlog", component: TeachLogComponent,
+  },
+  {
+    path: "students-db", component: StudentsDBComponent,
+  },
+  {
+    path: "counslers-db", component: CounslersDBComponent,
+  },
+  {
+    path: "testing-update", component: TestingUpdateComponent,
+  },
+  {
+    path: "trips-update", component: TripsUpdateComponent,
   },
   {
     path: "", redirectTo: "/", pathMatch: "full"

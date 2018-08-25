@@ -15,6 +15,10 @@ import { SignComponent } from './ sign/sign.component';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './guards/auth.guard';
 import { TeachLogComponent } from './teach-log/teach-log.component';
+import { StudentsDBComponent } from './students-db/students-db.component';
+import { CounslersDBComponent } from './counslers-db/counslers-db.component';
+import { TestingUpdateComponent } from './testing-update/testing-update.component';
+import { TripsUpdateComponent } from './trips-update/trips-update.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { TeachLogComponent } from './teach-log/teach-log.component';
     ScholarshipsComponent,
     CollegeComponent,
     SignComponent,
-    TeachLogComponent
+    TeachLogComponent,
+    StudentsDBComponent,
+    CounslersDBComponent,
+    TestingUpdateComponent,
+    TripsUpdateComponent
   ],
   imports: [
     BrowserModule,

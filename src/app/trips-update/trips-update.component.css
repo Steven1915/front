@@ -1,0 +1,25 @@
+.create{
+    margin-top:150px;
+    margin-left:150px;
+}
+
+.card{
+    width:500px;
+    height:350px;
+}
+
+.title{
+    margin-top:15px;
+}
+
+.post{
+    width:100px;
+    margin-top:40px;
+}
+
+.delete{
+    width:100px;
+    margin-top:40px;
+    margin-left:130px;
+    margin-top:-38px;
+}
